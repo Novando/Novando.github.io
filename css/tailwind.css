@@ -1349,6 +1349,11 @@ html {
   }
 }
 
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 @-webkit-keyframes button-pop {
   0% {
     transform: scale( var(--btn-focus-scale, .95) );
@@ -1403,6 +1408,15 @@ html {
   to {
     background-position-y: 0;
   }
+}
+
+.link:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.link:focus-visible {
+  box-shadow: 0 0 0 2px currentColor;
 }
 
 @-webkit-keyframes radiomark {
