@@ -14,7 +14,7 @@
 </head>
 <body class="md:max-w-screen-mds max-w-screen-xls container">
 
-  <section class="my-20 mx-80 lg:mx-40 md:mx-10 text-center">
+  <section id="head-text" class="my-20 mx-80 lg:mx-40 md:mx-10 text-center">
     <h1 class="text-3xl font-bold mb-10 text-amber-500">
       MTARGET Is More Than Just A Software
     </h1>
@@ -25,7 +25,7 @@
     </p>
   </section>
 
-  <section class="mx-10 p-10">
+  <section id="comparison-table" class="mx-10 p-10">
     <!-- Table Head -->
     <div class="grid grid-cols-4 px-10 gap-5">
       <div class="py-5 px-10">
@@ -179,13 +179,16 @@
       </div>
     </div>
     <!-- /Table Body -->
+  </section>
   
-  <section>
-    <h1>Let's hear what we can do for you</h1>
-    <input type="text" placeholder="Full Name">
-    <input type="text" placeholder="Email Address">
-    <input type="text" placeholder="+62">
-    <button>TALK TO AN EXPERT</button>
+  <section id="send-request" class="my-20 p-10 text-center">
+    <h1 class="text-3xl font-bold mb-10">Let's hear what we can do for you</h1>
+    <div class="grid grid-cols-3 px-10 gap-5 mb-10">
+      <input class="text-center border rounded h-12" type="text" placeholder="Full Name">
+      <input class="text-center border rounded h-12" type="text" placeholder="Email Address">
+      <input class="text-center border rounded h-12" type="text" placeholder="+62">
+    </div>
+    <button class="bg-amber-500 rounded text-zinc-50 font-bold py-3 px-5">TALK TO AN EXPERT</button>
   </section>
 
   <section>
