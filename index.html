@@ -14,7 +14,7 @@
 </head>
 <body class="md:max-w-screen-mds max-w-screen-xls container">
 
-  <section id="head-text" class="my-20 mx-80 lg:mx-40 md:mx-10 text-center">
+  <section id="head-text" class="my-20 mx-80 lg:mx-40 md:mx-5 text-center">
     <h1 class="text-3xl font-bold mb-10 text-amber-500">
       MTARGET Is More Than Just A Software
     </h1>
@@ -25,7 +25,7 @@
     </p>
   </section>
 
-  <section id="comparison-table" class="mx-10 p-10">
+  <section id="comparison-table-desktop" class="md:hidden mx-10 p-10">
     <!-- Table Head -->
     <div class="grid grid-cols-4 px-10 gap-5">
       <div class="py-5 px-10 lg:px-0">
@@ -180,10 +180,161 @@
     </div>
     <!-- /Table Body -->
   </section>
+
+  <section id="comparison-table-mobile" class="hidden md:block p-10">
+    <h1 class="text-3xl font-bold text-center mb-20">Marketing Channel</h1>
+    <!-- Table Head -->
+    <div class="grid grid-cols-5 px-10 gap-5">
+      <div class="col-span-2">
+      </div>
+      <div class="bg-gradient-to-b from-slate-500 to-slate-900 rounded-t-xl drop-shadow-xl py-5 text-center text-zinc-50">
+        <h1 class="text-3xl font-bold">P</h1>
+      </div>
+      <div class="bg-gradient-to-b from-indigo-500 to-indigo-700 rounded-t-xl drop-shadow-xl py-5 text-center text-zinc-50">
+        <h1 class="text-3xl font-bold">B</h1>
+      </div>
+      <div class="bg-gradient-to-b from-amber-500 to-amber-700 rounded-t-xl drop-shadow-xl py-5 text-center text-zinc-50">
+        <h1 class="text-3xl font-bold">E</h1>
+      </div>
+    </div>
+    <!-- /Table Head -->
+
+    <!-- Table Body -->
+    <div class="py-10 bg-zinc-50 rounded-xl drop-shadow-lg text-xs">
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="bg-amber-500 rounded col-span-2 text-zinc-50 flex items-center my-1 py-1 px-2 mr-2">
+          <span class="grow text-left">Email</span>
+          <span class="flex-none w-7 material-icons">expand_more</span>
+        </div>
+        <div><span class="material-icons font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align text-left align-items-center my-1 py-1 px-2 mr-2">
+          <span>Contact Book</span>
+        </div>
+        <div class="font-bold">Unlimited</div>
+        <div class="text-indigo-500 font-bold">Unlimited</div>
+        <div class="text-amber-500 font-bold">Unlimited</div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Personalization Code</span>
+        </div>
+        <div><span class="material-icons font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Customer Insight</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Drag & Drop Composer</span>
+        </div>
+        <div><span class="material-icons font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Email Automation</span>
+        </div>
+        <div><span class="material-icons font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Email Scheduler</span>
+        </div>
+        <div><span class="material-icons font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Campaign A/B Test</span>
+        </div>
+        <div><span class="material-icons font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>Campaign Analytics</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="col-span-2 flex align-items-center text-left my-1 py-1 px-2 mr-2">
+          <span>AI Conversion Email</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="bg-amber-500 rounded col-span-2 text-zinc-50 flex items-center my-1 py-1 px-2 mr-2">
+          <span class="grow text-left">Web Push Notification</span>
+          <span class="flex-none w-7 material-icons">expand_more</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-indigo-500 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="bg-amber-500 rounded col-span-2 text-zinc-50 flex items-center my-1 py-1 px-2 mr-2">
+          <span class="grow text-left">App Push Notification</span>
+          <span class="flex-none w-7 material-icons">expand_more</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="bg-amber-500 rounded col-span-2 text-zinc-50 flex items-center my-1 py-1 px-2 mr-2">
+          <span class="grow text-left">Dynamic Banner</span>
+          <span class="flex-none w-7 material-icons">expand_more</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+      <div class="grid grid-cols-5 px-5 divide-x-2 text-center">
+        <div class="bg-amber-500 rounded col-span-2 text-zinc-50 flex items-center my-1 py-1 px-2 mr-2">
+          <span class="grow text-left">Whatsapp</span>
+          <span class="flex-none w-7 material-icons">expand_more</span>
+        </div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-slate-300 font-bold">done</span></div>
+        <div><span class="material-icons text-amber-500 font-bold">done</span></div>
+      </div>
+    </div>
+    <!-- /Table Body -->
+
+    <!-- Table Foot -->
+    <div class="grid grid-cols-5 px-5 gap-5 text-center">
+      <div class="col-span-2">
+      </div>
+      <button class="bg-gradient-to-b from-slate-500 to-slate-900 rounded font-semibold text-zinc-50 text-2xs mt-2 py-2">Get started</button>
+      <button class="bg-gradient-to-b from-indigo-500 to-indigo-700 rounded font-semibold text-zinc-50 text-2xs mt-2 py-2">Talk with Us</button>
+      <button class="bg-gradient-to-b from-amber-500 to-amber-700 rounded font-semibold text-zinc-50 text-2xs mt-2 py-2">Request Demo</button>
+    </div>
+    <!-- /Table Foot -->
+  </section>
   
-  <section id="send-request" class="my-5 p-10 text-center">
+  <section id="send-request" class="my-5 md:mx-10 p-10 text-center">
     <h1 class="text-3xl font-bold mb-10">Let's hear what we can do for you</h1>
-    <div class="grid grid-cols-3 px-10 gap-5 mb-10">
+    <div class="grid grid-cols-3 md:grid-cols-1 px-10 gap-5 mb-10">
       <input class="text-center border rounded h-12" type="text" placeholder="Full Name">
       <input class="text-center border rounded h-12" type="text" placeholder="Email Address">
       <input class="text-center border rounded h-12" type="text" placeholder="+62">
