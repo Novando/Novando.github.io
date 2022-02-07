@@ -358,7 +358,7 @@
   
   <section id="send-request" class="xs:hidden my-5 md:mx-10 sm:mx-2 sm:px-0 p-10 text-center">
     <h1 class="text-3xl font-bold mb-10">Let's hear what we can do for you</h1>
-    <div class="grid grid-cols-3 md:grid-cols-1 px-10 gap-5 mb-10">
+    <div id="send-request-input" class="grid grid-cols-3 md:grid-cols-1 px-10 gap-5 mb-10">
       <input class="text-center border rounded h-12" type="text" placeholder="Full Name">
       <input class="text-center border rounded h-12" type="text" placeholder="Email Address">
       <input class="text-center border rounded h-12" type="text" placeholder="+62">
@@ -545,6 +545,8 @@
       
       document.getElementById('features-desktop').classList.remove('md:hidden');
       document.getElementById('features-mobile').classList.remove('md:block');
+
+      document.getElementById('send-request-input').classList.remove('md:grid-cols-1');
     }
   </script>
 </body>
