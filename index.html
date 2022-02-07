@@ -538,6 +538,23 @@
   </section>
 
   <script>
+    if (WURFL.form_factor == 'Tablet') {
+      document.getElementById('head-text').classList.remove('mx-5');
+      document.getElementById('head-text').classList.remove('mx-80');
+      document.getElementById('head-text').classList.add('mx-40');
+
+      document.getElementById('comparison-table-desktop').classList.remove('hidden');
+      document.getElementById('comparison-table-mobile').classList.remove('block');
+      document.getElementById('comparison-table-mobile').classList.add('hidden');
+
+      document.getElementById('send-request').classList.remove('mx-10');
+      document.getElementById('send-request').classList.remove('mx-2');
+      document.getElementById('send-request').classList.remove('px-0');
+
+      document.getElementById('features-desktop').classList.remove('hidden');
+      document.getElementById('features-mobile').classList.remove('block');
+      document.getElementById('features-mobile').classList.add('hidden');
+    }
     console.log('tes');
     console.log(WURFL.form_factor);
   </script>

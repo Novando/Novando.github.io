@@ -1658,6 +1658,16 @@ html {
   margin-right: 5rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1680,6 +1690,10 @@ html {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -1931,6 +1945,11 @@ html {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .pl-6 {
