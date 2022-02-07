@@ -1,3 +1,15 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+.bg-professional{
+  background-image: url(../img/05.png);
+}
+
+.bg-business{
+  background-image: url(../img/06.png);
+}
+
+.bg-enterprise{
+  background-image: url(../img/07.png);
+}
